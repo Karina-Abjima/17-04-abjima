@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BhawaniSingh\\source\\repos\\new\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
+      "projectUniqueName": "C:\\Users\\BhawaniSingh\\Documents\\GitHub\\17-04-abjima\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
       "projectName": "CityInfo.API",
-      "projectPath": "C:\\Users\\BhawaniSingh\\source\\repos\\new\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
+      "projectPath": "C:\\Users\\BhawaniSingh\\Documents\\GitHub\\17-04-abjima\\CityInfo\\CityInfo.API\\CityInfo.API.csproj",
       "packagesPath": "C:\\Users\\BhawaniSingh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BhawaniSingh\\source\\repos\\new\\CityInfo\\CityInfo.API\\obj\\",
+      "outputPath": "C:\\Users\\BhawaniSingh\\Documents\\GitHub\\17-04-abjima\\CityInfo\\CityInfo.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BhawaniSingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
