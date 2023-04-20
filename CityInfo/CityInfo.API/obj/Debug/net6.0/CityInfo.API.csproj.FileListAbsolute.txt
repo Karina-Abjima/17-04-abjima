@@ -63,3 +63,17 @@ C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\obj\De
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\obj\Debug\net6.0\CityInfo.API.genruntimeconfig.cache
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\obj\Debug\net6.0\ref\CityInfo.API.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\getting-started-with-rest-slides.pdf
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
