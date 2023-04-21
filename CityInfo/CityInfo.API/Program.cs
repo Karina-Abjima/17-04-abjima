@@ -1,5 +1,9 @@
+using CityInfo.API;
+using CityInfo.API.DbContexts;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -10,7 +14,7 @@ Log.Logger = new LoggerConfiguration()
 
 
 
-
+ 
 var builder = WebApplication.CreateBuilder(args);
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
@@ -23,11 +27,23 @@ builder.Services.AddControllers(options =>
     options.ReturnHttpNotAcceptable = true;
 }).AddNewtonsoftJson().AddXmlDataContractSerializerFormatters();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Learn more about configuring Swagger/OpenAPI at
+// https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
-builder.Services.AddTransient<LocalMailService>();
+
+#if DEBUG
+builder.Services.AddTransient<IMailService,LocalMailService>();
+#else
+builder.Services.AddTransient<IMailService,CloudMailService>();
+#endif
+
+builder.Services.AddSingleton<CitiesDataStore>();
+
+builder.Services.AddDbContext<CityInfoContext>(
+    dbContextOptions => dbContextOptions.UseSqlite("Data Source =CityInfo.db"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
