@@ -14,8 +14,9 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "6.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
           "Serilog.AspNetCore": "6.1.0",
+          "Swashbuckle.AspNetCore": "6.2.3",
           "Serilog.Sinks.Console": "4.1.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Serilog.Sinks.File": "5.0.0"
         },
         "runtime": {
           "CityInfo.API.dll": {}
