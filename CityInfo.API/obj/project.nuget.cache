@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FhkXA/HrAd0FSI6GWYu+85hQfmEjqcAFNiiGg9dZmgwsbR5USYemt5LjrLNQrBWVJo/v9ULbVQFmQpWpXDZkvg==",
+  "dgSpecHash": "weD8FhEshoSzptZPt/tgDniAH9r/ZxSxrzEPiPf3eR53JtXxm5YbU6AnO6dXPtsQZmshMl9Ka0GlCJ/W3LGmZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\NiteshAgarwal\\Documents\\GIT\\17-04-abjima\\CityInfo.API\\CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.5\\microsoft.aspnetcore.jsonpatch.7.0.5.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",
@@ -57,6 +59,7 @@
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
