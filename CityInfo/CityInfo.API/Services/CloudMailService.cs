@@ -20,6 +20,4 @@
             Console.WriteLine($"Message: {message}");
         }
     }
-    
-    
 }

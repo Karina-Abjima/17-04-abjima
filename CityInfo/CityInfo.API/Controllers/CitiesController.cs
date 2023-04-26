@@ -9,7 +9,8 @@ namespace CityInfo.API.Controllers
 {
     [ApiController]
     [Authorize]
-    
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
     [Route("api/v{version:apiVersion}/cities")]
     public class CitiesController : ControllerBase
     {
@@ -20,9 +21,9 @@ namespace CityInfo.API.Controllers
         public CitiesController(ICityInfoRepository cityInfoRepository,
             IMapper mapper)
         {
-            _cityInfoRepository = cityInfoRepository ??
+            _cityInfoRepository = cityInfoRepository ?? 
                 throw new ArgumentNullException(nameof(cityInfoRepository));
-            _mapper = mapper ??
+            _mapper = mapper ?? 
                 throw new ArgumentNullException(nameof(mapper));
         }
 
@@ -41,7 +42,7 @@ namespace CityInfo.API.Controllers
             Response.Headers.Add("X-Pagination",
                 JsonSerializer.Serialize(paginationMetadata));
 
-            return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
+            return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));       
         }
 
         /// <summary>

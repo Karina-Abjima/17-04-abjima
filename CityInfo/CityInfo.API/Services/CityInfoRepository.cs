@@ -75,7 +75,7 @@ namespace CityInfo.API.Services
         }
 
         public async Task<PointOfInterest?> GetPointOfInterestForCityAsync(
-            int cityId,
+            int cityId, 
             int pointOfInterestId)
         {
             return await _context.PointsOfInterest
@@ -90,7 +90,7 @@ namespace CityInfo.API.Services
                            .Where(p => p.CityId == cityId).ToListAsync();
         }
 
-        public async Task AddPointOfInterestForCityAsync(int cityId,
+        public async Task AddPointOfInterestForCityAsync(int cityId, 
             PointOfInterest pointOfInterest)
         {
             var city = await GetCityAsync(cityId, false);

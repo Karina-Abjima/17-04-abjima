@@ -10,7 +10,7 @@ namespace CityInfo.API.Controllers
 {
     [Route("api/v{version:apiVersion}/cities/{cityId}/pointsofinterest")]
     [Authorize(Policy = "MustBeFromAntwerp")]
- 
+    [ApiVersion("2.0")]
     [ApiController]
     public class PointsOfInterestController : ControllerBase
     {
@@ -24,13 +24,13 @@ namespace CityInfo.API.Controllers
             ICityInfoRepository cityInfoRepository,
             IMapper mapper)
         {
-            _logger = logger ??
+            _logger = logger ?? 
                 throw new ArgumentNullException(nameof(logger));
-            _mailService = mailService ??
+            _mailService = mailService ?? 
                 throw new ArgumentNullException(nameof(mailService));
-            _cityInfoRepository = cityInfoRepository ??
+            _cityInfoRepository = cityInfoRepository ?? 
                 throw new ArgumentNullException(nameof(cityInfoRepository));
-            _mapper = mapper ??
+            _mapper = mapper ?? 
                 throw new ArgumentNullException(nameof(mapper));
         }
 
@@ -96,7 +96,7 @@ namespace CityInfo.API.Controllers
 
             await _cityInfoRepository.SaveChangesAsync();
 
-            var createdPointOfInterestToReturn =
+            var createdPointOfInterestToReturn = 
                 _mapper.Map<Models.PointOfInterestDto>(finalPointOfInterest);
 
             return CreatedAtRoute("GetPointOfInterest",
@@ -192,7 +192,7 @@ namespace CityInfo.API.Controllers
             _mailService.Send(
                 "Point of interest deleted.",
                 $"Point of interest {pointOfInterestEntity.Name} with id {pointOfInterestEntity.Id} was deleted.");
-
+         
             return NoContent();
         }
 

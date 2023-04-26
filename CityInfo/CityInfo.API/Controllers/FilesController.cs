@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.StaticFiles;
 namespace CityInfo.API.Controllers
 {
     [Route("api/files")]
+    [Authorize]
     [ApiController]
     public class FilesController : ControllerBase
     {
@@ -23,8 +24,8 @@ namespace CityInfo.API.Controllers
         [HttpGet("{fileId}")]
         public ActionResult GetFile(string fileId)
         {
-            // look up the actual file
-
+            // look up the actual file, depending on the fileId...
+            // demo code
             var pathToFile = "getting-started-with-rest-slides.pdf";
 
             // check whether the file exists

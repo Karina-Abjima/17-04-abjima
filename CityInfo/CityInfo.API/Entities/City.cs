@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CityInfo.API.Entities
 {
@@ -23,6 +23,5 @@ namespace CityInfo.API.Entities
         {
             Name = name;
         }
-
     }
 }
