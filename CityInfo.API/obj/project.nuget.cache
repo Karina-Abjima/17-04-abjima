@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nVbeplvobDMBilZlJi7Vvp+rkEwg0HaknFf4ONgWxygd2Nv/8+Aor8NMLtsSQjHu4+Vp3/dKWAGOr8DZ9Gnk/g==",
+  "dgSpecHash": "ZRSBj7c3+vqZfUfEQs2DVGLHZ4xNPi7w/RGTrE5XPMCfejWb5zMHdYwKMU9+iCNZljAhKbj5yuMtm44Eb8yo9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\NiteshAgarwal\\Documents\\GIT\\17-04-abjima\\CityInfo.API\\CityInfo.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.5\\microsoft.aspnetcore.jsonpatch.7.0.5.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.0.nupkg.sha512",
+    "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "C:\\Users\\NiteshAgarwal\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
