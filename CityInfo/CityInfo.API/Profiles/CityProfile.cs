@@ -2,12 +2,12 @@
 
 namespace CityInfo.API.Profiles
 {
-    public class CityProfile : Profile
+    public class CityProfile :Profile
     {
-        public CityProfile()
+        public CityProfile() 
         {
             CreateMap<Entities.City, Models.CityWithoutPointsOfInterestDto>();
-            CreateMap<Entities.City, Models.CityDto>();
+            CreateMap<Entities.City, Models.CityDto>(); 
         }
     }
 }

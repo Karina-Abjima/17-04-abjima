@@ -11,6 +11,7 @@
             _mailFrom = configuration["mailSettings:mailFromAddress"];
         }
 
+
         public void Send(string subject, string message)
         {
             // send mail - output to console window

@@ -8,8 +8,8 @@ namespace CityInfo.API.DbContexts
         public DbSet<City> Cities { get; set; } = null!;
         public DbSet<PointOfInterest> PointsOfInterest { get; set; } = null!;
 
-        public CityInfoContext(DbContextOptions<CityInfoContext> options) 
-            : base(options) 
+        public CityInfoContext(DbContextOptions<CityInfoContext> options)
+            : base(options)
         {
 
         }
@@ -73,13 +73,8 @@ namespace CityInfo.API.DbContexts
                    Description = "The world's largest museum."
                }
                );
+
             base.OnModelCreating(modelBuilder);
         }
-
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    optionsBuilder.UseSqlite("connectionstring");
-        //    base.OnConfiguring(optionsBuilder);
-        //}
     }
 }

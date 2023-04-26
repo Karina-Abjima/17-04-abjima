@@ -7,7 +7,6 @@ C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\De
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\CityInfo.API.runtimeconfig.json
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\CityInfo.API.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\CityInfo.API.pdb
-C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\CityInfo.API.xml
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Humanizer.dll
@@ -22,6 +21,7 @@ C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\De
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\BhawaniSingh\Documents\GitHub\17-04-abjima\CityInfo\CityInfo.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
