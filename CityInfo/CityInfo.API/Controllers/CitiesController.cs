@@ -45,13 +45,7 @@ namespace CityInfo.API.Controllers
             
         }
 
-        /// <summary>
-        /// Get a city by id
-        /// </summary>
-        /// <param name="id">The id of the city to get</param>
-        /// <param name="includePointsOfInterest">Whether or not to include the points of interest</param>
-        /// <returns>An IActionResult</returns>
-        /// <response code="200">Returns the requested city</response>
+        
 
         [HttpGet("id")]
         [ProducesResponseType(StatusCodes.Status200OK)]

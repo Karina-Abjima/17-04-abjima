@@ -116,7 +116,7 @@ namespace CityInfo.API.Controllers
                 createdPointOfInterestToReturn);
         }
           
-        [HttpPut("{pointofinterestid}")]
+        //[HttpPut("{pointofinterestid}")]
         public async Task<ActionResult> UpdatePointOfInterest(int cityId, int pointOfInterestId,
             PointOfInterestForUpdateDto pointOfInterest)
         {

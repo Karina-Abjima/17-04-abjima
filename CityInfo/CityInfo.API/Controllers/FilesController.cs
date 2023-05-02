@@ -24,11 +24,10 @@ namespace CityInfo.API.Controllers
         [HttpGet("{fileId}")]
         public ActionResult GetFile(string fileId)
         {
-            // look up the actual file
+            
 
             var pathToFile = "getting-started-with-rest-slides.pdf";
 
-            // check whether the file exists
             if (!System.IO.File.Exists(pathToFile))
             {
                 return NotFound();
