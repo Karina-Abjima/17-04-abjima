@@ -13,7 +13,7 @@ namespace CityInfo.API.Controllers
     {
         private readonly IConfiguration _configuration;
 
-        // we won't use this outside of this class, so we can scope it to this namespace
+        
         public class AuthenticationRequestBody
         {
             public string? UserName { get; set; }
